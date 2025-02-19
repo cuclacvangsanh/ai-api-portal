@@ -22,6 +22,8 @@ const imageMessageContentSchema = Joi.array().items(
   })
 );
 
+// comment thử xem sao.
+
 const messageSchema = Joi.object({
   role: roleSchema,
   content: Joi.alternatives().try(commonMessageContentSchema, imageMessageContentSchema),
