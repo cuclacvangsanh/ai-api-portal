@@ -16,3 +16,6 @@ export function calcHex(str: string): string {
 export function genUUID(): string {
   return uuidv4();
 }
+
+
+// add thử tí comment xem sao.
