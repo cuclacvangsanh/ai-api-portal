@@ -13,3 +13,11 @@ run/
 package-lock.json
 
 npm-debug.log
+
+.env
+
+.env.local
+
+.env.development
+
+.env.production
